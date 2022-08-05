@@ -1,5 +1,5 @@
 import axios from "axios";
-import useSWR from "swr";
+import useSWR,{ useSWRConfig } from "swr";
 import Image from "next/image";
 
 export default function Users({count, setCount}) {
